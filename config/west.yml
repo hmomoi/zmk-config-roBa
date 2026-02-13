@@ -28,6 +28,9 @@ manifest:
     - name: zmk-module-runtime-input-processor
       remote: cormoran 
       revision: main
+    - name: zmk-behavior-runtime-sensor-rotate
+      remote: cormoran
+      revision: main # or latest commit hash
     - name: prospector-zmk-module
       remote: prospector
       revision: v2.0.0

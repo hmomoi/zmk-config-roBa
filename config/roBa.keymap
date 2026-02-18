@@ -91,7 +91,7 @@
 &kp LCTRL         &kp LEFT_WIN  &kp LEFT_ALT  &lt_to_layer_0 6 LANGUAGE_2  &lt 2 SPACE  &lt_to_layer_0 3 LANGUAGE_1      &kp BACKSPACE  &lt 1 ENTER                             &kp DEL
             >;
 
-            sensor-bindings = <&rsr_pg &rsr_trans>;
+            sensor-bindings = <&rsr_pg>;
         };
 
         FUNCTION {
@@ -123,7 +123,7 @@
 &trans          &trans                  &trans          &trans                   &trans   &trans      &trans  &trans                          &trans
             >;
 
-            sensor-bindings = <&rsr_cpg  &rsr_trans>;
+            sensor-bindings = <&rsr_cpg>;
         };
 
         MOUSE {

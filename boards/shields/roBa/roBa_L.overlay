@@ -20,6 +20,6 @@
     compatible = "zmk,battery-voltage-divider";
     io-channels = <&adc 7>;
     power-gpios = <&gpio0 14 (GPIO_OPEN_DRAIN | GPIO_ACTIVE_LOW)>;
-    output-ohms = <459000>;
-    full-ohms = <(1000000 + 459000)>;
+    output-ohms = <479400>;
+    full-ohms = <(1000000 + 479400)>;
 };
